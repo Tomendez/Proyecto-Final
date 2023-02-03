@@ -1,0 +1,23 @@
+{
+  "name": "pre-entrega3",
+  "version": "1.0.0",
+  "description": "aplicando scss y seo al proyecto",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "node-sass scss/style.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomendez/preentrega2-mendez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomendez/preentrega2-mendez/issues"
+  },
+  "homepage": "https://github.com/Tomendez/preentrega2-mendez#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

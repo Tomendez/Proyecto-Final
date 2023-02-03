@@ -1,0 +1,70 @@
+.footer .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 45px, 0px;
+    text-align: center;
+}
+
+.footer .grupo-1 .box figure {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .grupo-1 .box figure img {
+    width: 150px;
+}
+
+.footer .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 30px;
+
+}
+
+.footer .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.footer .grupo-1 .box .red-social a {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: $second-color;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.footer .grupo-1 .box .red-social a:hover {
+    color: aqua;
+}
+
+.footer .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px, 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer .grupo-2 small {
+    font-size: 15px;
+}
+
+.footer {
+    width: 100%;
+    background-color: $main-color;
+}

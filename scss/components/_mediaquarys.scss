@@ -1,0 +1,64 @@
+@media screen and (min-width:621px) {
+    .carousel-inner {
+        display: flex;
+    }
+
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+
+    .carousel-inner {
+        padding: 1em;
+    }
+
+
+    .card {
+        margin: 0 .5em;
+        box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, .18);
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 6vh;
+        height: 6vh;
+        background-color: $main-color;
+        border: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: .5;
+    }
+
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:620px) {
+
+    .footer .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        padding: 35px, 0px;
+        text-align: center;
+    }
+
+    .bg-i {
+        flex-direction: column;
+        align-content: center;
+
+    }
+
+    .iframe {
+        width: 100%;
+    }
+
+    .h2 {
+        margin: 0px !important;
+        font-size: 15px;
+        padding: 0px !important;
+    }
+}
