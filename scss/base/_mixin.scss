@@ -1,0 +1,10 @@
+@mixin resets {
+    padding: 0px;
+    margin: 0px;
+}
+
+@mixin font {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}

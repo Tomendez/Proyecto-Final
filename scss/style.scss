@@ -1,7 +1,8 @@
 @import './base/variables';
+@import './base/mixin';
 @import './base/resets';
-@import './components/footer';
-@import './components/galeria';
 @import './components/header';
+@import './components/galeria';
+@import './components/footer';
 @import './layout/extras';
 @import './components/mediaquarys';
