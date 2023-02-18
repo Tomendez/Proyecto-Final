@@ -1,7 +1,7 @@
 {
-  "name": "pre-entrega3",
+  "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "aplicando scss y seo al proyecto",
+  "description": "entregando proyecto final",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
